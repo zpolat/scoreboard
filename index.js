@@ -42,10 +42,10 @@ function reset() {
 }
 
 function addscore(score, side) {
-   if (side == home) {
+   if (side == "home") {
       home += score
       sumHomeEl.textContent = home
-   } else if (side == guest) {
+   } else if (side == "guest") {
       guest += score
       sumGuestEl.textContent = guest
    } else {
