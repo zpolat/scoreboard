@@ -40,3 +40,13 @@ function reset() {
    home = 0
    guest = 0
 }
+
+function addscore(score, side) {
+   if (side == home) {
+      home += score
+      sumHomeEl.textContent = home
+   } else {
+      guest += score
+      sumGuestEl.textContent = guest
+   }
+}
