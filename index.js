@@ -45,8 +45,10 @@ function addscore(score, side) {
    if (side == home) {
       home += score
       sumHomeEl.textContent = home
-   } else {
+   } else if (side == guest) {
       guest += score
       sumGuestEl.textContent = guest
+   } else {
+      console.log("kaput")
    }
 }
