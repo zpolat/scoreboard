@@ -37,4 +37,6 @@ function addThreeGuest() {
 function reset() {
    sumHomeEl.textContent = "-"
    sumGuestEl.textContent = "-"
+   home = 0
+   guest = 0
 }
