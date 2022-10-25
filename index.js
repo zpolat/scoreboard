@@ -41,7 +41,7 @@ function reset() {
    guest = 0
 }
 
-function addscore(score, side) {
+function addscore(side, score) {
    if (side == home) {
       console.log(side)
       home += score
